@@ -1,28 +1,28 @@
-const CACHE_NAME = "silabas-v2";
+const CACHE_NAME = "silabas-v3";
 
 
 const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/js/app.js",
-  "/manifest.json",
+  "../",
+  "../index.html",
+  "../style.css",
+  "../js/app.js",
+  "../manifest.json",
 
-  "/assets/img/logo.png",
-  "/assets/img/phone.png",
-  "/assets/img/sound.png",
+  "../assets/img/logo.png",
+  "../assets/img/phone.png",
+  "../assets/img/sound.png",
 
-  "/assets/img/mascot-normal.png",
-  "/assets/img/mascot-happy.png",
-  "/assets/img/mascot-sad.png",
-  "/assets/img/mascot-congrats.png",
+  "../assets/img/mascot-normal.png",
+  "../assets/img/mascot-happy.png",
+  "../assets/img/mascot-sad.png",
+  "../assets/img/mascot-congrats.png",
 
-  "/assets/sounds/success.mp3",
-  "/assets/sounds/error.mp3",
-  "/assets/sounds/congrats.mp3",
+  "../assets/sounds/success.mp3",
+  "../assets/sounds/error.mp3",
+  "../assets/sounds/congrats.mp3",
 
-  "/assets/icons/icon-192.png",
-  "/assets/icons/icon-512.png"
+  "../assets/icons/icon-192.png",
+  "../assets/icons/icon-512.png"
 ];
 
 
@@ -44,3 +44,4 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
+
