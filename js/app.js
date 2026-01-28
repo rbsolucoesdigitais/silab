@@ -512,7 +512,7 @@ function iniciarMicrofone() {
 
 function pararMicrofone() {
   botaoEl.classList.remove("ativo");
-  micImg.src = "/assets/img/phone.png";
+  micImg.src = "../assets/img/phone.png";
 }
 
 
@@ -562,3 +562,4 @@ document.getElementById("btn-instalar")?.addEventListener("click", async () => {
 window.addEventListener("appinstalled", () => {
   document.getElementById("btn-instalar")?.classList.add("hidden");
 });
+
