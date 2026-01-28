@@ -14,13 +14,13 @@ const resultadoEl = document.getElementById("resultado");
 
 const frasesFeedback = [
   new Audio("./silab/assets/sounds/frase1.ogg"),
-  new Audio("../assets/sounds/frase2.ogg"),
-  new Audio("../assets/sounds/frase3.ogg"),
-  new Audio("../assets/sounds/frase4.ogg"),
-  new Audio("../assets/sounds/frase5.ogg"),
-  new Audio("../assets/sounds/frase6.ogg"),
-  new Audio("../assets/sounds/frase7.ogg"),
-  new Audio("../assets/sounds/frase8.ogg")
+  new Audio("./silab/assets/sounds/frase2.ogg"),
+  new Audio("./silab/assets/sounds/frase3.ogg"),
+  new Audio("./silab/assets/sounds/frase4.ogg"),
+  new Audio("./silab/assets/sounds/frase5.ogg"),
+  new Audio("./silab/assets/sounds/frase6.ogg"),
+  new Audio("./silab/assets/sounds/frase7.ogg"),
+  new Audio("./silab/assets/sounds/frase8.ogg")
 ];
 frasesFeedback.forEach(a => {
   a.preload = "auto";
@@ -562,6 +562,7 @@ document.getElementById("btn-instalar")?.addEventListener("click", async () => {
 window.addEventListener("appinstalled", () => {
   document.getElementById("btn-instalar")?.classList.add("hidden");
 });
+
 
 
 
