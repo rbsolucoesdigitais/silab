@@ -2,7 +2,7 @@
   "name": "Jogo de Sílabas",
   "short_name": "Sílabas",
   "description": "Aprender sílabas falando em voz alta",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#58cc02",
